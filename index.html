@@ -27,6 +27,7 @@
             color: #333;
             font-size: 2.5em;
             margin-bottom: 20px;
+            text-align: center; /* 大标题居中 */
         }
 
         h3 {
@@ -41,9 +42,19 @@
         }
 
         table {
-            width: 100%;
+            width: 50%;
             margin: 20px 0;
             border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .homework-table {
+            width: 80%; /* 作业表格占80%宽度 */
+            margin: 20px 0;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         th, td {
@@ -132,7 +143,7 @@
         </ul>
 
         <h3>作业</h3>
-        <table>
+        <table class="homework-table">
             <thead>
                 <tr>
                     <th>序号</th>
